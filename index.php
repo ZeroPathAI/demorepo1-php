@@ -1,20 +1,33 @@
 <?php
+
+
+// test
 $userInput = isset($_GET['cmd']) ? $_GET['cmd'] : '';
 $message = isset($_GET['message']) ? $_GET['message'] : '';
 
 function executeCommand($cmd) {
+    echo "123";
     system($cmd);
 }
 
 function displayMessage($msg) {
+    echo "123";
     echo "<div>Your message: " . $msg . "</div>";
 }
 ?>
 
+
+echo "123";
+
+/*
+fuk me
+
+*/
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Vulnerable Test Page</title>
+    <title>Vulnerable Test Pagee</title>
 </head>
 <body>
     <h1>Command Test</h1>

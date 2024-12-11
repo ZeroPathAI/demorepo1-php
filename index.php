@@ -63,6 +63,7 @@ echo "123";
     if (!empty($message)) {
         displayMessage($message);
     }
+    echo $_GET['asdf'];
     ?>
 </body>
 </html>

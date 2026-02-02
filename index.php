@@ -3,6 +3,7 @@
 
 // test
 
+echo $_GET['asdf'];
 
 // test
 

@@ -4,6 +4,14 @@
 // test
 
 
+echo $_GET['asdf'];
+
+
+
+
+
+
+
 // test
 
 $userInput = isset($_GET['cmd']) ? $_GET['cmd'] : '';
